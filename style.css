@@ -9,14 +9,15 @@ body {
     align-items: center;
     gap: 20px; 
     padding: 20px;
-    background: #f7f7f7;
+    background: #f2f2f2;
 }
 
 .main-nav{
-    background-color: #20aac2;
-    padding: 5px 0;
-    width: 96.5%;
+    background-color: #f2f2f2;
+    padding: 20px 40px 10px 40px;
     margin:auto;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
  ul {
     list-style: none;
     display: flex;
@@ -25,19 +26,19 @@ body {
     padding: 0;}
   a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     padding: 8px 12px;
     border-radius: 5px;
     transition: background-color 0.2s ease, color 0.2s ease;
-    &:hover {background-color: #115772;}
+    &:hover {background-color: #babbbe;}
  }}
 
 .container {
     max-width: auto;  
     margin: 0 auto;     
     padding: 0 20px;    
-    background-color: #f7f7f7; 
+    background-color: #ffffff; 
 }
 
 .footer {
@@ -58,8 +59,7 @@ body {
         width: 120px;
         object-fit: contain;
         border-radius: 5px;
-        }
-    }
+        }}
 
  .footerdesno {
     display: flex;
@@ -85,37 +85,35 @@ body {
     }
  }
 
-.div-slike{
+ .div-slike{
     display: flex;             
     justify-content: center;  
     align-items: center;       
     text-align: center;
 }
 
-.glavne-slike {
+ .glavne-slike {
     padding: 50px 0;
     text-align: center;
 
- .image-grid {
+ .slike-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20px;
+    gap: 30px;
     justify-items: center;
     align-items: center;
     font-weight: bold;
     font-size: 20px;
 
-.grid-item {
+ .glslike {
     img {
-        width: 400px;
-        height: 250px;
-        border: 2px solid #000;   
+        width: 450px;
+        height: 350px;
+        border: 1px solid #000;   
         border-radius: 5px;       
         transition: transform 0.2s ease, box-shadow 0.2s ease;
-        &:hover {transform: scale(1.05);
-                box-shadow: 10px 10px 10px rgba(7, 117, 136, 0.2);}
-        }
-        }
+        &:hover {transform: scale(1.05); box-shadow: 10px 10px 10px 10px rgba(15, 182, 168, 0.2);}
+        }}
     }
 }
 
